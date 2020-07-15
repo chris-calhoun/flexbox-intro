@@ -14,11 +14,12 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: mediumturquoise;
-  border: solid red 1.5px;
+  border-bottom: darkblue solid 3px;
+  /* border: solid red 1.5px; */
 }
 
 ul {
-  border: solid red 1.5px;
+  /* border: solid red 1.5px; */
   list-style: none;
   text-transform: uppercase;
   display: flex;
@@ -31,7 +32,7 @@ ul a {
 }
 
 .logo {
-  border: solid red 1.5px;
+  /* border: solid red 1.5px; */
   padding: 1em;
   text-transform: uppercase;
 }
@@ -62,4 +63,29 @@ ul a:hover {
 .dogs img {
   width: 350px;
   margin: 20px;
+}
+/*****************CATS***************/
+.cats {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.cats img {
+  height: 260px;
+  margin: 10px;
+  border: solid 1.75px black;
+  border-radius: 60px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
 }
