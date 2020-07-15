@@ -4,19 +4,21 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: beige;
 }
+
+/*****************NAVIGATION***************/
 
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: gold;
-  border: solid red 1px;
+  background-color: mediumturquoise;
+  border: solid red 1.5px;
 }
 
 ul {
-  border: solid red 1px;
+  border: solid red 1.5px;
   list-style: none;
   text-transform: uppercase;
   display: flex;
@@ -29,7 +31,7 @@ ul a {
 }
 
 .logo {
-  border: solid red 1px;
+  border: solid red 1.5px;
   padding: 1em;
   text-transform: uppercase;
 }
@@ -45,5 +47,19 @@ ul a {
 }
 
 ul a:hover {
-  background-color: grey;
+  background-color: goldenrod;
+}
+
+/*****************DOGS***************/
+
+.dogs {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.dogs img {
+  width: 350px;
+  margin: 20px;
 }
